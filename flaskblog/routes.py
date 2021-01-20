@@ -1,8 +1,6 @@
 from flask import render_template, url_for, flash, redirect,request
 from flaskblog import app
 
-
-
 @app.route("/")
 @app.route("/home")
 def home():
